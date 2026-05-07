@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kusystruska Agency</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #333;
+    }
+    header {
+      background: #111;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    .hero {
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .card {
+      border: 1px solid #ddd;
+      padding: 20px;
+      width: 250px;
+      border-radius: 10px;
+    }
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    button {
+      background: #4facfe;
+      border: none;
+      padding: 10px 20px;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Kusystruska Agency</h1>
+  <nav>
+    <a href="#about">소개</a>
+    <a href="#services">서비스</a>
+    <a href="#contact">문의</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>비즈니스를 성장시키는 마케팅 파트너</h2>
+  <p>광고, 브랜딩, 디지털 마케팅을 한 번에</p>
+  <button onclick="location.href='#contact'">문의하기</button>
+</section>
+
+<section id="about" class="section">
+  <h2>회사 소개</h2>
+  <p>저희는 브랜드 성장을 돕는 광고 대행사입니다. 전략부터 실행까지 함께합니다.</p>
+</section>
+
+<section id="services" class="section">
+  <h2>서비스</h2>
+  <div class="services">
+    <div class="card">
+      <h3>디지털 광고</h3>
+      <p>구글, SNS 광고 운영 및 최적화</p>
+    </div>
+    <div class="card">
+      <h3>브랜딩</h3>
+      <p>로고, 콘텐츠, 브랜드 전략 수립</p>
+    </div>
+    <div class="card">
+      <h3>퍼포먼스 마케팅</h3>
+      <p>데이터 기반 성과 중심 광고</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <h2>문의하기</h2>
+  <p>이메일: contact@kusystruska.com</p>
+  <p>전화: 010-0000-0000</p>
+</section>
+
+<footer>
+  <p>© 2026 Kusystruska Agency. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

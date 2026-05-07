@@ -1,113 +1,105 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kusystruska Agency</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>광고 페이지</title>
+
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      color: #333;
-    }
-    header {
-      background: #111;
-      color: white;
-      padding: 20px;
+      padding: 30px;
+      background: #efefef;
+      font-family: sans-serif;
       text-align: center;
     }
-    nav a {
-      color: white;
-      margin: 0 15px;
-      text-decoration: none;
-    }
-    .hero {
-      background: linear-gradient(to right, #4facfe, #00f2fe);
-      color: white;
-      text-align: center;
-      padding: 100px 20px;
-    }
-    .section {
-      padding: 60px 20px;
-      text-align: center;
-    }
-    .services {
+
+    /* 상단 버튼 */
+    .button-wrap {
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
-      gap: 20px;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
     }
-    .card {
-      border: 1px solid #ddd;
-      padding: 20px;
-      width: 250px;
+
+    .link-btn img {
+      width: 320px;
+      max-width: 100%;
+      transition: 0.2s;
+      cursor: pointer;
+    }
+
+    .link-btn img:hover {
+      transform: scale(1.03);
+    }
+
+    /* 메인 광고 이미지 */
+    .main-image {
+      margin-bottom: 50px;
+    }
+
+    .main-image img {
+      width: 700px;
+      max-width: 100%;
       border-radius: 10px;
     }
-    footer {
-      background: #111;
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
-    button {
-      background: #4facfe;
-      border: none;
-      padding: 10px 20px;
-      color: white;
-      border-radius: 5px;
-      cursor: pointer;
+
+    /* 하단 버튼 */
+    .bottom-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin-top: 30px;
     }
   </style>
 </head>
+
 <body>
 
-<header>
-  <h1>Kusystruska Agency</h1>
-  <nav>
-    <a href="#about">소개</a>
-    <a href="#services">서비스</a>
-    <a href="#contact">문의</a>
-  </nav>
-</header>
+  <!-- 상단 버튼 -->
+  <div class="button-wrap">
 
-<section class="hero">
-  <h2>비즈니스를 성장시키는 마케팅 파트너</h2>
-  <p>광고, 브랜딩, 디지털 마케팅을 한 번에</p>
-  <button onclick="location.href='#contact'">문의하기</button>
-</section>
+    <!-- 텔레그램 -->
+    <a class="link-btn"
+       href="https://t.me/advertisement100"
+       target="_blank">
+      <img src="텔레2.png" alt="텔레그램">
+    </a>
 
-<section id="about" class="section">
-  <h2>회사 소개</h2>
-  <p>저희는 브랜드 성장을 돕는 광고 대행사입니다. 전략부터 실행까지 함께합니다.</p>
-</section>
+    <!-- 카카오톡 -->
+    <a class="link-btn"
+       href="https://open.kakao.com/o/saRVkLPh"
+       target="_blank">
+      <img src="카톡2.png" alt="카카오톡">
+    </a>
 
-<section id="services" class="section">
-  <h2>서비스</h2>
-  <div class="services">
-    <div class="card">
-      <h3>디지털 광고</h3>
-      <p>구글, SNS 광고 운영 및 최적화</p>
-    </div>
-    <div class="card">
-      <h3>브랜딩</h3>
-      <p>로고, 콘텐츠, 브랜드 전략 수립</p>
-    </div>
-    <div class="card">
-      <h3>퍼포먼스 마케팅</h3>
-      <p>데이터 기반 성과 중심 광고</p>
-    </div>
   </div>
-</section>
 
-<section id="contact" class="section">
-  <h2>문의하기</h2>
-  <p>이메일: contact@kusystruska.com</p>
-  <p>전화: 010-0000-0000</p>
-</section>
+  <!-- 메인 이미지 -->
+  <div class="main-image">
+    <img src="애드워즈2.png" alt="광고 이미지">
+  </div>
 
-<footer>
-  <p>© 2026 Kusystruska Agency. All rights reserved.</p>
-</footer>
+  <!-- 하단 버튼 -->
+  <div class="bottom-buttons">
+
+    <!-- 텔레그램 -->
+    <a class="link-btn"
+       href="https://t.me/advertisement100"
+       target="_blank">
+      <img src="텔레2.png" alt="텔레그램">
+    </a>
+
+    <!-- 카카오톡 -->
+    <a class="link-btn"
+       href="https://open.kakao.com/o/saRVkLPh"
+       target="_blank">
+      <img src="카톡2.png" alt="카카오톡">
+    </a>
+
+  </div>
 
 </body>
 </html>
